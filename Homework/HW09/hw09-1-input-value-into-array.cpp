@@ -34,18 +34,18 @@ int main() {
         printf( "Input [%d] :\n",i ) ;
         scanf( "%d", &num[ i ] ) ;
         N++ ;
-        if ( num[ i ] == -1 ) break;
-    }
+        if ( num[ i ] == -1 ) break;// end if loop
+    }//end for loop
 
-    printf( "Index = " ) ;
+    printf( "Index =" ) ;
     for ( i = 0 ; i < N - 1 ; i++ ) {
         printf( " %d",i );
-    }
+    }//end for loop
 
-    printf( "\nArray = " ) ;
+    printf( "\nArray =" ) ;
     for ( i = 0; i < N - 1 ; i++){
         printf( " %d", num[ i ] ) ;
-    }
+    }//end for loop
     
     return 0 ;
 }
